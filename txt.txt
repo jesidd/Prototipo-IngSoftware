@@ -1,0 +1,28 @@
+        <div class="lupa"><span class="material-symbols-outlined">
+                search
+            </span>
+        </div>
+        <div class="notificaciones"><span class="material-symbols-outlined">
+                notifications
+            </span>
+        </div>
+        <div class="usuario">
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+        </div>
+        <div class="menu">
+            <a href="">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </a>
+        </div>
+
+
+            background-image: url("./Recursos/baner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    backface-visibility: hidden;

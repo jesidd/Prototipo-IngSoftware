@@ -1,0 +1,245 @@
+body{
+    background-color: #090516;
+}
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    height: 50px;
+    background-color: #221e2e;
+    padding: 5px 0 5px 0;
+}
+
+.logo{
+    height: 81px;
+}
+
+#logo_img{
+    height: 60px;
+    width: auto;
+}
+
+.espacio_rutas, .espacio_Destinos{
+    color: #3C3947;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15px;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.search{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+    height: 32px;
+    background-color: rgb(56 53 67);
+    border-radius: 20px;
+    
+}
+
+.search_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#search_input{
+    width: var(229-40)px;
+    height: 28px;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    background-color: #3c3947;
+    outline: none;
+    padding: 0px 20px;
+}
+
+
+.botones_Index{
+    display: flex;
+    gap: 20px;
+}
+
+.botones_Index_estylos{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: inherit;
+    text-decoration: none;
+    color: #3C3947;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    height: 37px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn1{
+    background-color: #ffffff;
+    font-weight: 800;
+
+}
+ 
+.btn2:hover{
+    background-color: #ffffff;
+}
+
+.lupa{
+    color: black;
+    width: 40%;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.notificaciones{
+    color: black;
+
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.usuario{
+    color: black;
+
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.menu{
+
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+
+.Hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 493px;
+}
+
+#hero_titulo{
+    position: absolute;
+    margin-top: 100px;
+    color: white;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+#hero_info{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin: 180px;
+}
+
+.buscar_destinos{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 980px;
+    height: 83px;
+    margin-top: 260px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.buscar_destinos_opciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 83%;
+}
+
+
+.d1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 240px;
+    background-color: #edebf3;
+    border-radius: 12px;
+    padding: 0px 7px;
+}
+
+#Destino{
+    border: ;
+    
+}
+
+#Origen{
+
+}
+
+.input_destinos{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 20px;
+    background: none;
+}
+
+.fecha{
+    
+}
+
+.inputFechas_destinos{
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0px 15px;
+}
+
+#fechaIda{
+    background-color: #dbd9e1;
+    border-radius: 12px;
+}
+
+.buscar_destinos_boton{
+    border: 1px solid black;
+    width: 15%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #221e2e;
+}
+
+.btn3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    background: none;
+    text-decoration: none;
+    color: #3C3947;
+    font-weight: bold;
+}
+
+.buscar_destinos_boton:hover{
+    background-color: #342e47;
+}
+
+.btn3:hover{
+    color: #fff;
+}
