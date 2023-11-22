@@ -220,7 +220,7 @@ header{
     width: 15%;
     height: 40px;
     border-radius: 12px;
-    background-color: #221e2e;
+    background-color: #342e47;
 }
 
 .btn3{
@@ -237,9 +237,43 @@ header{
 }
 
 .buscar_destinos_boton:hover{
-    background-color: #342e47;
+    background-color: #221e2e;
 }
 
 .btn3:hover{
     color: #fff;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footerSocial{
+    padding: 100px 200px;
+    width: 980px
+}
+
+.footer_titulo{
+    font-size: 40px;
+    color: white;
+    margin-left: 6%;
+    margin-bottom: 40px;
+}
+
+
+.lista_redes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.r1{
+    display: flex;
+    color: white;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.logoRdes{
+    width: 60px;
 }
